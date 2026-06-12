@@ -30,7 +30,7 @@ while True:
     #
     # ord('q')
     # - Converts the character 'q' into its ASCII value (113)
-    #
+    
     # Overall meaning:
     # "If the user presses the 'q' key, quit the program"
     if cv2.waitKey(1) & 0xFF == ord('q'):
