@@ -1,4 +1,6 @@
 import cv2
+#image1 and image2 must have the same height and same width
+#only use black and white image 
 import numpy as np
 img1=np.zeros((300,300),dtype='uint8')
 img2=np.zeros((300,300),dtype='uint8')
