@@ -19,7 +19,7 @@ st.set_page_config(
 
 @st.cache_data
 def load_data():
-    data = pd.read_csv("D:\Machine_Learning_Journey\Streamlit\cleaned.csv")
+    data = pd.read_csv(r"Streamlit/cleaned.csv")
 
     data["date"] = pd.to_datetime(
         data["date"],
